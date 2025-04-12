@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Reflex App - Rincewrite",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "reflex",
+            "args": [
+                "run",
+            ],
+        },
+        {
+            "name": "Reflex App - Rincewrite with graph",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "reflex",
+            "args": [
+                "run",
+            ],
+            "env": {
+                "SHOW_GRAPH": "true",
+            },
+        },
+        
+    ]
+}
