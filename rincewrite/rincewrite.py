@@ -411,7 +411,7 @@ def welcome_dialog() -> rx.Component:
                 ),
                 rx.text(
                     "conjured ",
-                    rx.code("@ Brest Social Engines"),
+                    rx.code("@ Brest Thinking Machines"),
                 ),
                 rx.logo(),
                 spacing="3",
